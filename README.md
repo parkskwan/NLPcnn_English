@@ -19,7 +19,7 @@ from sklearn.feature_extraction.text import CountVectorizer
 
 count = CountVectorizer()
 
-# 1. 토근화
+# 1. 토큰화
 docs = np.array(['The sun is shining', 'The weather is sweet', 'The sun is shining and the weather is sweet'])
 bag = count.fit_transform(docs)
 
